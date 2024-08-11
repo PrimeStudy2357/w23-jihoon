@@ -29,4 +29,4 @@ async function main() {
 }
 
 // 에러 처리
-main().catch((err) => console.log(err));
+main().catch((err) => console.error(err));
